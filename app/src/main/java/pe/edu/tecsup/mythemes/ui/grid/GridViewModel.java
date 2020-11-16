@@ -1,16 +1,16 @@
-package pe.edu.tecsup.mythemes.ui.dashboard;
+package pe.edu.tecsup.mythemes.ui.grid;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class LinearViewModel extends ViewModel {
+public class GridViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public LinearViewModel() {
+    public GridViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is notifications fragment");
     }
 
     public LiveData<String> getText() {

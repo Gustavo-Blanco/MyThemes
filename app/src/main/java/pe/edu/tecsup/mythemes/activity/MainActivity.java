@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public List<Theme> themes (){
-        String theme = "Programción";
+        String theme = "Programación";
         String[] descriptions = {
                 "Desarrollado en 1995 por Sun Microsystems, su principal punto fuerte es que es muy versátil. Puede usarse prácticamente para todo, desde aplicaciones webs a programas de ordenadores, apps de Android, juegos, etc.",
 

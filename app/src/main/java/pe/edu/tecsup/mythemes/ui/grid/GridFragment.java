@@ -1,4 +1,4 @@
-package pe.edu.tecsup.mythemes.ui.notifications;
+package pe.edu.tecsup.mythemes.ui.grid;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

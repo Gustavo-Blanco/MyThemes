@@ -1,4 +1,4 @@
-package pe.edu.tecsup.mythemes.ui.home;
+package pe.edu.tecsup.mythemes.ui.theme;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

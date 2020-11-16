@@ -1,4 +1,4 @@
-package pe.edu.tecsup.mythemes.ui.dashboard;
+package pe.edu.tecsup.mythemes.ui.linear;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -24,8 +24,8 @@ public class LinearFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         dashboardViewModel =
                 ViewModelProviders.of(this).get(LinearViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_theme, container, false);
-        rvThemes = root.findViewById(R.id.rvThemes);
+        View root = inflater.inflate(R.layout.fragment_layout_linear, container, false);
+        rvThemes = root.findViewById(R.id.rvThemesLinear);
 
         LinearLayoutManager manager = new LinearLayoutManager(getContext(),RecyclerView.VERTICAL, false);
         ThemeAdapter themeAdapter = new ThemeAdapter(( (MainActivity) getActivity()).themes(), R.layout.themes_layout_item_linear);

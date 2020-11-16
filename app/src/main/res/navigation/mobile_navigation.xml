@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="pe.edu.tecsup.mythemes.ui.home.ThemeFragment"
+        android:name="pe.edu.tecsup.mythemes.ui.theme.ThemeFragment"
         android:label="@string/title_theme"
-        tools:layout="@layout/fragment_theme_linear" />
-
-    <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="pe.edu.tecsup.mythemes.ui.dashboard.LinearFragment"
-        android:label="@string/title_linear"
         tools:layout="@layout/fragment_theme" />
 
     <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="pe.edu.tecsup.mythemes.ui.linear.LinearFragment"
+        android:label="@string/title_linear"
+        tools:layout="@layout/fragment_layout_linear" />
+
+    <fragment
         android:id="@+id/navigation_notifications"
-        android:name="pe.edu.tecsup.mythemes.ui.notifications.GridFragment"
+        android:name="pe.edu.tecsup.mythemes.ui.grid.GridFragment"
         android:label="@string/title_grid"
         tools:layout="@layout/fragment_layout_grid" />
 </navigation>

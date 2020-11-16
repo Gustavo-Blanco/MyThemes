@@ -7,6 +7,7 @@ public class Theme {
     private String rating;
     private String description;
 
+
     public Theme(int image, String theme, String title, String rating, String description) {
         this.image = image;
         this.theme = theme;
