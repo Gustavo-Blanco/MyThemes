@@ -59,15 +59,15 @@ public class MainActivity extends AppCompatActivity {
         };
         List<Theme> themes = new ArrayList<Theme>();
         themes.add(new Theme(R.drawable.ic_java,theme,"Java","puesto: 1",descriptions[0]));
-        themes.add(new Theme(R.drawable.ic_java,theme,"Javascript","puesto: 2",descriptions[1]));
-        themes.add(new Theme(R.drawable.ic_java,theme,"Go","puesto: 3",descriptions[2]));
-        themes.add(new Theme(R.drawable.ic_java,theme,"Kotlin","puesto: 4",descriptions[3]));
-        themes.add(new Theme(R.drawable.ic_java,theme,"Python","puesto: 5",descriptions[4]));
-        themes.add(new Theme(R.drawable.ic_java,theme,"C","puesto: 6",descriptions[5]));
-        themes.add(new Theme(R.drawable.ic_java,theme,"Scala","puesto: 7",descriptions[6]));
-        themes.add(new Theme(R.drawable.ic_java,theme,"Ruby","puesto: 8",descriptions[7]));
-        themes.add(new Theme(R.drawable.ic_java,theme,"Swift","puesto: 9",descriptions[8]));
-        themes.add(new Theme(R.drawable.ic_java,theme,"Dart","puesto: 10",descriptions[9]));
+        themes.add(new Theme(R.drawable.ic_javascript,theme,"Javascript","puesto: 2",descriptions[1]));
+        themes.add(new Theme(R.drawable.ic_gopher_front,theme,"Go","puesto: 3",descriptions[2]));
+        themes.add(new Theme(R.drawable.ic_kotlin,theme,"Kotlin","puesto: 4",descriptions[3]));
+        themes.add(new Theme(R.drawable.ic_python,theme,"Python","puesto: 5",descriptions[4]));
+        themes.add(new Theme(R.drawable.ic_c,theme,"C","puesto: 6",descriptions[5]));
+        themes.add(new Theme(R.drawable.ic_scala,theme,"Scala","puesto: 7",descriptions[6]));
+        themes.add(new Theme(R.drawable.ic_ruby,theme,"Ruby","puesto: 8",descriptions[7]));
+        themes.add(new Theme(R.drawable.ic_swift,theme,"Swift","puesto: 9",descriptions[8]));
+        themes.add(new Theme(R.drawable.ic_dart,theme,"Dart","puesto: 10",descriptions[9]));
         return themes;
     }
 }

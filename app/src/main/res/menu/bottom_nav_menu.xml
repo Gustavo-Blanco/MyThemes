@@ -4,7 +4,8 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_theme" />
+        android:title="@string/title_theme"
+        />
 
     <item
         android:id="@+id/navigation_dashboard"
@@ -14,6 +15,8 @@
     <item
         android:id="@+id/navigation_notifications"
         android:icon="@drawable/ic_cuadricula"
-        android:title="@string/title_grid" />
+        android:title="@string/title_grid"
+
+        />
 
 </menu>
