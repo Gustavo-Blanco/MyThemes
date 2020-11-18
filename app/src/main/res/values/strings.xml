@@ -3,4 +3,13 @@
     <string name="title_theme">Mi tema</string>
     <string name="title_linear">Linear Layout</string>
     <string name="title_grid">Grid Layout</string>
+    <string name="user">user</string>
+    <string name="userName">Gustavo Blanco Ticona</string>
+    <string name="imageDescription">Lenguajes de programación</string>
+    <string name="themeTitle">Lenguajes de programación</string>
+    <string name="themeDescription">Escogí este tema porque es parte de mi carrera,
+    además, he tenido la oportunidad de probar varios de ellos, especialmente los que
+    están especializados en desarrollo web como javascript.
+    En las opciones de navigationBottom podrá ver el listado de lenguajes de programación
+    más populares, tanto en formato LinearLayout como en GridLayout</string>
 </resources>

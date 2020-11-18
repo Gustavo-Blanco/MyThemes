@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -20,8 +21,7 @@ public class LinearFragment extends Fragment {
     private LinearViewModel dashboardViewModel;
     private RecyclerView rvThemes;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         dashboardViewModel =
                 ViewModelProviders.of(this).get(LinearViewModel.class);
         View root = inflater.inflate(R.layout.fragment_layout_linear, container, false);
@@ -29,6 +29,7 @@ public class LinearFragment extends Fragment {
 
         LinearLayoutManager manager = new LinearLayoutManager(getContext(),RecyclerView.VERTICAL, false);
         ThemeAdapter themeAdapter = new ThemeAdapter(( (MainActivity) getActivity()).themes(), R.layout.themes_layout_item_linear);
+
         rvThemes.setAdapter(themeAdapter);
         rvThemes.setLayoutManager(manager);
         return root;

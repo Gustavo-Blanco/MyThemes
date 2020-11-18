@@ -8,8 +8,7 @@
     android:theme="@style/Theme.MaterialComponents.Light"
     android:layout_margin="8dp"
     app:cardElevation="3dp"
-    app:cardCornerRadius="10dp"
-    >
+    app:cardCornerRadius="10dp">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -17,15 +16,13 @@
         android:layout_height="wrap_content"
         android:padding="8dp">
 
-        <!-- Imagen -->
         <ImageView
             android:id="@+id/image"
             android:layout_width="128dp"
             android:layout_height="match_parent"
             android:src="@drawable/ic_launcher_background"
             android:paddingTop="13dp"
-            android:paddingBottom="13dp"
-            />
+            android:paddingBottom="13dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,16 +31,14 @@
             android:layout_marginRight="8dp"
             android:orientation="vertical">
 
-            <!-- Título -->
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 android:textColor="#6a6a6a"
-                />
+                android:textStyle="bold" />
 
-            <!--  Description   -->
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/description"
                 android:layout_width="match_parent"
@@ -58,14 +53,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <!-- tema -->
+
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/theme"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:textSize="10sp"
                     android:layout_height="wrap_content"
-                    android:text=""/>
+                    tools:ignore="SmallSp"
+                    android:textColor="@color/red"/>
 
                 <!-- rating -->
                 <com.google.android.material.textview.MaterialTextView

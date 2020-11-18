@@ -20,8 +20,7 @@ public class GridFragment extends Fragment {
     private GridViewModel notificationsViewModel;
     private RecyclerView rvThemesGrid;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         notificationsViewModel =
                 ViewModelProviders.of(this).get(GridViewModel.class);
         View root = inflater.inflate(R.layout.fragment_layout_grid, container, false);

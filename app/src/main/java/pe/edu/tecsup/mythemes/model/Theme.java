@@ -15,8 +15,7 @@ public class Theme {
         this.description = description;
     }
 
-    public Theme() {
-    }
+    public Theme() { }
 
     public int getImage() {
         return image;
@@ -57,6 +56,5 @@ public class Theme {
     public void setDescription(String description) {
         this.description = description;
     }
-
 
 }

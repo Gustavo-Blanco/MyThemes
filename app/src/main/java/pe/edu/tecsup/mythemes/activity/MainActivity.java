@@ -1,18 +1,14 @@
 package pe.edu.tecsup.mythemes.activity;
 
 import android.os.Bundle;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import pe.edu.tecsup.mythemes.R;
 import pe.edu.tecsup.mythemes.model.Theme;
 
@@ -36,26 +32,16 @@ public class MainActivity extends AppCompatActivity {
     public List<Theme> themes (){
         String theme = "Programación";
         String[] descriptions = {
-                "Desarrollado en 1995 por Sun Microsystems, su principal punto fuerte es que es muy versátil. Puede usarse prácticamente para todo, desde aplicaciones webs a programas de ordenadores, apps de Android, juegos, etc.",
-
-                "Javascript es el lenguaje más utilizado para escribir aplicaciones dentro de las páginas webs. Funciona directamente en el navegador",
-
-                "Go es un lenguaje desarrollado por Google en 2009, que se ha popularizado mucho en los últimos años. Está inspirado en C, pero aspira a ser tan fácil de entender como Python, sin perder la rapidez de C++.",
-
-                "se utiliza mucho para desarrollar aplicaciones Android, desarrollo web, aplicaciones científicas, y apps multiplataforma que van a funcionar tanto en iOS como en Android.",
-
-                " El lenguaje Python ha vuelto con fuerza en los últimos tiempos porque se ha descubierto que es perfecto para desarrollar una tecnología enfocada en la inteligencia artificial",
-
-                "Es un lenguaje que se creó para diseñar sistemas operativos, como Unix y otros muchos. Es un lenguaje de bajo nivel, muy rápido y eficiente, también comenzó a usarse para escribir aplicaciones y programas.",
-
-                "Scala se ejecuta en la máquina virtual de Java, y puede usar las miles de librerías Java y Javascript, así que resulta muy sencillo incorporarlo a las actualizaciones de aplicaciones ya existentes",
-
-                "Se usa principalmente para crear aplicaciones web, pero también se pueden creer aplicaciones de escritorio, o apps para el móvil.",
-
-                "Swift es un lenguaje de programación creado por Apple para diseñar apps para iOS, Mac, el Apple TV y el Apple Watch. Es el lenguaje oficial de la plataforma Apple",
-
-                "Se ha vuelto muy popular porque es un lenguaje pensado para desarrollar interfases de usuario: menús, botones de acceso, y otros comandos de entrada que son imprescindibles en las apps de móvil y en las páginas web."
-
+                "Java es un lenguaje multiplataforma, basado en programación orientada a objetos",
+                "Javascript es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica",
+                "Go es un lenguaje desarrollado por Google en 2009, que se ha popularizado mucho en los últimos años.",
+                "Kotlin es un lenguaje de programación orientado principalmente a objetos de calidad industrial.",
+                "Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, especializado en inteligencia artificial",
+                "Es un lenguaje que se creó para diseñar sistemas operativos, como Unix y otros muchos. Es un lenguaje de bajo nivel.",
+                "Scala es un lenguaje multi-paradigma diseñado para expresar patrones comunes de programación en forma concisa, elegante y con tipos seguros",
+                "Ruby es un lenguaje de programación interpretado, reflexivo y orientado a objetos.",
+                "Swift es un lenguaje de multiparadigma creado por Apple enfocado en el desarrollo de aplicaciones para iOS y macOS.",
+                "Dart es un lenguaje open source desarrollado en Google con el objetivo de permitir a los desarrolladores utilizar un lenguaje orientado a objetos y con análisis estático de tipo"
         };
         List<Theme> themes = new ArrayList<Theme>();
         themes.add(new Theme(R.drawable.ic_java,theme,"Java","puesto: 1",descriptions[0]));
